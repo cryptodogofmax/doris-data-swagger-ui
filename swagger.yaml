@@ -22,22 +22,22 @@ paths:
     post:
       tags:
         - collections
-      summary: adds an inventory item
-      operationId: addInventory
-      description: Adds an item to the system
+      summary: get collection-related information
+      operationId: getTopCollections
+      description: Get top collections
       responses:
         '201':
-          description: item created
+          description: collections retrieved
         '400':
           description: 'invalid input, object invalid'
         '409':
-          description: an existing item already exists
+          description: 'invalid input, object invalid'
       requestBody:
         content:
           application/json:
             schema:
               $ref: '#/components/schemas/getTopCollections'
-        description: Inventory item to add
+        description: Get collections
 components:
   schemas:
     getTopCollections:
