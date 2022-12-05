@@ -2,8 +2,6 @@ openapi: 3.0.0
 servers:
   # Added by API Auto Mocking Plugin
   - description: SwaggerHub API Auto Mocking
-    url: https://virtserver.swaggerhub.com/BIZJUN/Doris/1.0.0
-  - description: SwaggerHub API Auto Mocking
     url: https://6yfp0iys97.execute-api.ap-southeast-1.amazonaws.com/v0
 info:
   description: Data API documentation using Swagger
